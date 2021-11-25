@@ -63,7 +63,7 @@ f1.pack(side=LEFT and TOP, anchor=NW, padx=50)
 # ----------------------------------------------------
 
 
-# -------NAPISY DO LISTY WYBORU I INFO O SZYFSZE-------
+# -------NAPISY DO LISTY WYBORU I INFO O SZYFRZE-------
 f2 = Frame(root, bg=c1)
 msg_lbox = Message(f2, text="Lista dostępnych szyfrów:", width="300", bg=c1, font=("Museo 300", "15"), fg="white")
 msg_lbox.pack(side=LEFT, anchor=NW)
@@ -74,7 +74,7 @@ f2.pack(side=LEFT and TOP, anchor=NW, padx=50)
 # -----------------------------------------------------
 
 
-# ------LISTA WYBORU I INFO O SZYFSZE-------------------
+# ------LISTA WYBORU I INFO O SZYFRZE-------------------
 f3 = Frame(root, bg=c1)
 f3x = Frame(f3, bg=c1)
 # scrollbar
@@ -192,7 +192,7 @@ def information_add(event):
 	\t-name(), która zwaracca nazwę szyfru, wyświetlaną w liście wyboru
 	\t-encrypt(txt), która w zależności od txt zwraca zaszyfrowany tekst
 	\t-decrypt(txt), która w zależności od txt zwraca rozszyfrowany tekst
-	\t-info(), która zwraca informacje o szyfsze
+	\t-info(), która zwraca informacje o szyfrze
 3.	Utworzony plik dodaj do folderu "ciphers" '''
     msg = Message(toplevel, text=top_text, width=700, font=("Museo 300", "10", "bold"), fg=c1, bg=c2)
     msg.pack(expand=YES, fill=BOTH)
